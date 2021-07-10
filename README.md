@@ -23,4 +23,4 @@
   
   <h2>Your name, registration number - </h2>
   <h3>~ Sanjana Singh</h3>
-  <h3>~ 2041019268</h3> <hr>v
+  <h3>~ 2041019268</h3> <hr>
