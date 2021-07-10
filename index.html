@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="css/Drum Kit.css">
+</head>
+
+<body>
+       
+         <div class= "Heading">
+           <h1>HELLO EVERYONE !</h1>
+           <h2>Let's Play With Music &#127932 </h2>
+
+         </div>
+         <div class ="text-box">
+          <span>S</span>
+          <span>A</span>
+          <span>N</span>
+          <span>J</span>
+          <span>A</span>
+          <span>N</span>
+          <span>A</span>
+
+
+          
+         </div>
+
+
+  <div class="keys">
+    <div data-key="65" class="key" onclick="event['keyCode']='65';playSound(event)">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-key="83" class="key" onclick="event['keyCode']='83';playSound(event)">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div data-key="68" class="key" onclick="event['keyCode']='68';playSound(event)">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-key="70" class="key" onclick="event['keyCode']='70';playSound(event)">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div data-key="71" class="key" onclick="event['keyCode']='71';playSound(event)">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-key="72" class="key" onclick="event['keyCode']='72';playSound(event)">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="74" class="key" onclick="event['keyCode']='74';playSound(event)">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-key="75" class="key" onclick="event['keyCode']='75';playSound(event)">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-key="76" class="key" onclick="event['keyCode']='76';playSound(event)">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+
+
+  <audio data-key="65" src="assets/sounds/clap.wav"></audio>
+  <audio data-key="83" src="assets/sounds/hihat.wav"></audio>
+  <audio data-key="68" src="assets/sounds/kick.wav"></audio>
+  <audio data-key="70" src="assets/sounds/openhat.wav"></audio>
+  <audio data-key="71" src="assets/sounds/boom.wav"></audio>
+  <audio data-key="72" src="assets/sounds/ride.wav"></audio>
+  <audio data-key="74" src="assets/sounds/snare.wav"></audio>
+  <audio data-key="75" src="assets/sounds/tom.wav"></audio>
+  <audio data-key="76" src="assets/sounds/tink.wav"></audio>
+
+
+
+
+
+  <script src="js/Drum Kit.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+html {
+  font-size: 10px;
+
+}
+
+.Heading{
+  color:red ;
+  font-size: 15px;
+  font-family: cursive;
+}
+.text-box{
+  font-size: 50px;
+   color: rgb(224, 15, 130);
+  font-family: cursive;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+ span{
+
+  display: inline-block;
+  font-weight: bolder;
+  animation: mover 6s linear infinite ;
+ } 
+ 
+@keyframes mover {
+  0%{
+      text-shadow: 0 0 30px rgba(0,0,0,0);
+  }
+  50%{
+    text-shadow: 0 0 30px rgba(0,0,0,0.30);
+    transform: translateY(40px);
+}
+100%{
+  text-shadow: 0 0 30px rgba(0,0,0,0);
+}
+
+}
+span:nth-child(1){
+  animation-delay:0.5s;
+
+}
+span:nth-child(2){
+  animation-delay: 1s;
+  
+}
+span:nth-child(3){
+  animation-delay:1.5s;
+  
+}
+span:nth-child(4){
+  animation-delay: 2s;
+  
+}
+span:nth-child(5){
+  animation-delay: 2.5s;
+  
+}
+span:nth-child(6){
+  animation-delay: 3s;
+  
+}
+span:nth-child(7){
+  animation-delay:3.5s;
+  
+}
+
+
+
+
+
+
+
+
+
+ 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("../assets/images/gif\ 4.gif ");
+  background-size: cover;
+}
+
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+}
+
+.key:hover {
+  cursor: pointer;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
+
